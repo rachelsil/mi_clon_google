@@ -1,0 +1,223 @@
+/*ESTILO PARA EL CUERPO PRINCIPAL*/
+body{
+    background:rgba(83, 4, 72, 0.948);
+    background-image:url(https://i.gifer.com/NRI0.gif);
+    margin:0;
+    padding:0;
+    font-size: 13px;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+
+/*ESTILO PARA EL TEXTO DE LA EQTIQUETA a*/
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+
+/*ESTILO PARA LA SECCIÓN DE GMAIL E IMAGENES a*/
+header nav .nav-right-section {
+    width: 100%;
+    height: auto;
+    /*Acomoda a tus elementos en un contenedor*/
+    display: flex;
+    /*retira las viñetas de la lista*/
+    list-style: none;
+    /*posiciona el texto a la izquierda*/
+    justify-content:right;
+    /*Centra el texto a lo ancho*/
+    align-items: center;
+    background-color: #d38aee;
+
+
+
+}
+
+/*ESTILO PARA las letras de GMAIL E IMAGENES a*/
+nav .nav-right-section a{
+    margin-right: 25px;
+    color: #1c1b1b;
+    font-size: 20px;
+     font-family: "Dancing Script", cursive;
+        font-size: 25px;
+}
+
+/*ESTILO PARA EL ICONO DE GOOGLE APPS*/
+nav .nav-right-section .menu-icon{
+    background-image: url('https://img.icons8.com/ios-glyphs/90/000000/circled-menu.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 26px;
+    height: 26px;
+    margin-right: 25px;
+}
+
+nav .nav-right-section img {
+    border-radius: 50px;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+/*estilo para la posicion del logo de google*/
+main {
+    margin-top: 150px;
+    text-align: center;
+    
+}
+
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 500px;
+    height: 200px;
+    
+}
+
+/*Estilo de entrada principal*/
+main .main-input {
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    
+}
+
+/*Estilo de entrada principal*/
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #121111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    }
+
+    main .main-input input{
+        width: 450px;
+        height: 40px;
+        border: none;
+        outline: none;
+    }
+
+    main .main-input-container:hover{
+        box-shadow: 0 1px 6px 0 #20212447;
+        border-color: #dfe1e500;
+    }
+   /*Estilo para el icono de busqueda*/
+    main .main-input .search-icon{
+        background-image: url('https://img.icons8.com/android/24/000000/search.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+
+    }
+ /*Estilo para el icono de microfono*/
+   main .main-input .micro-icon{
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/726px-Google_mic.svg.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+    }
+ /*Estilo para el ancho de los botones y su posición*/
+    main .main-buttons{
+        width: 630px;
+        margin: 0 auto;
+    }
+
+    main .main-buttons div {
+        display: inline-block;
+        
+    }
+/*ESTILO PARA LOS BOTONES */
+    main .main-buttons button {
+        height: 36px;
+        background-color: #b8a0f1;
+        border: 1;
+        font-family: fantasy;
+        font-size: 14px;
+        color: #0d0d0d;
+        border-radius: 20px;
+        padding: 0 15px;
+        margin-right: 15px;
+        
+    }
+    /*estilo cuando posicionas el mouse sobre los botones de "buscar con google"*/
+    main .main-buttons button:hover{
+        /*borde*/
+        border: 5px solid #f9efef;
+        /*sombra*/
+        box-shadow: 0 5px 20px #000000;
+        /*color de texto*/
+        color: #f0e8e8;
+    }
+
+/*estilo para el pie de encabezado*/
+    footer{
+        width: 100%;
+        height: 50px;
+        position: absolute;
+        bottom: 0;
+        /*divide los elementos de manera uniforme*/
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        font-size: 14px;
+        background-color: #d38aee;
+        border-top: 2px solid #090909;
+
+    }
+
+    /*Estilo para la lista no ordenada en general*/
+    footer ul{
+        margin: 10px;  
+        list-style: none;
+        display: flex;
+        padding-left:0;
+        font-family: "Dancing Script", cursive;
+        font-size: 25px;
+    }
+ 
+ /*Estilo para la lista no ordenada de la izquierda*/
+.footer-left {
+        justify-self: left;
+    }
+
+/*Estilo para la lista no ordenada de la derecha  */
+.footer-right {
+        justify-self: right;
+    }
+
+    /*Estilo para el texto de las listas*/
+    footer ul li a {
+        margin: 10px;
+        color: #f1efef;
+    }
+
+    /*Estilo para la imagen de perfil*/
+
+    #perfil{
+        border: 2px solid #f9efef;
+        border-color: #f0e8e8;   
+    }
